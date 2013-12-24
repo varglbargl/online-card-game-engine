@@ -1,0 +1,17 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ehannum/online-card-game-engine",
+  "authors": [
+    "ehannum <ehannum@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.2.6",
+    "angular-route": "~1.2.6",
+    "angular-socket-io": "~0.2.0"
+  },
+  "resolutions": {
+    "angular": "1.2.6"
+  }
+}
