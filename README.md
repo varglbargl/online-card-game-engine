@@ -1,4 +1,4 @@
-online-card-game-engine
+Online Card Game Engine
 =======================
 
 Attempt at making an engine for playing card games (not like poker, think more Cards Against Humaity) online with real time multiplayer.

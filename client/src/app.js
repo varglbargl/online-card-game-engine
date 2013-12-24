@@ -4,7 +4,7 @@ var app = angular.module('cardGame', ['ngRoute', 'btford.socket-io'])
   $routeProvider.when('/', {
     controller: 'GameMenuController',
     templateUrl: 'templates/menu.html'
-  }).when('/game/space/:id', {
+  }).when('/game/space/:game', {
     controller: 'SpaceGameController',
     templateUrl: 'templates/space.html'
   }).when('/404', {
@@ -14,6 +14,6 @@ var app = angular.module('cardGame', ['ngRoute', 'btford.socket-io'])
 }]);
 
 app.run(function ($rootScope) {
-  $rootScope.title = "Presentaur";
-  $rootScope.id = '';
+  $rootScope.title = "PLAY BOARD GAMES";
+  $rootScope.room = '';
 });
