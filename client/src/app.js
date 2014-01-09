@@ -14,6 +14,4 @@ var app = angular.module('cardGame', ['ngRoute', 'btford.socket-io'])
 }]);
 
 app.run(function ($rootScope) {
-  $rootScope.title = "PLAY BOARD GAMES";
-  $rootScope.room = '';
 });

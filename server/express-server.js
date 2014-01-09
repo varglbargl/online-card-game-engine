@@ -17,7 +17,7 @@ io.sockets.on('connection', function (socket) {
   socket.on('update', function(){
     io.sockets.emit('update');
   });
-  socket.on('pay', function(){
+  socket.on('play', function(){
     io.sockets.emit('play');
   });
   socket.on('chat', function(){
