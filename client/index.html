@@ -1,17 +1,18 @@
 <!doctype html>
 <html ng-app="cardGame">
 <head>
-  <title>{{title}}</title>
+  <title>A card game OF some sort!</title>
+  <link rel="stylesheet" href="res/styles.css">
 </head>
 <body>
-  <h1>{{title}}</h1>
+  <h1>untitled-1.html</h1>
   <section id="table" ng-view>
   </section>
 
   <script src="socket.io/socket.io.js"></script>
-  <script src="bower_components/angular.min.js"></script>
-  <script src="bower_components/angular-route.min.js"></script>
-  <script src="bower_components/sockets.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src="bower_components/angular-socket-io/socket.js"></script>
   <script src="src/app.js"></script>
   <script src="src/services.js"></script>
   <script src="src/controllers.js"></script>

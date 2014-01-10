@@ -14,4 +14,5 @@ var app = angular.module('cardGame', ['ngRoute', 'btford.socket-io'])
 }]);
 
 app.run(function ($rootScope) {
+  $rootScope.game = 'space';
 });

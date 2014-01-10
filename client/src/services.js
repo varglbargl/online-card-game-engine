@@ -2,6 +2,12 @@ app.factory('deckMethods', [function () {
 
   var deck;
   var discard;
+  var card = function (artUrl, text, power, level) {
+    this.art = artUrl;
+    this.text = text;
+    this.power = power;
+    this.level = level;
+  };
   
   return {
     buildDeck: function (array) {

@@ -5,7 +5,9 @@ var io = require('socket.io').listen(server);
 var url = require('url');
 var path = require('path');
 
-server.listen(process.env.PORT || 3030);
+var port = process.env.PORT || 3030;
+server.listen(port);
+console.log('Listening on port', port);
 
 app.configure(function(){
   app.use(express.bodyParser());
